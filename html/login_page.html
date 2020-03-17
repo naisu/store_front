@@ -27,14 +27,24 @@
 
 <br><br><br><br><br>
 
-	<form name="login">
-            Username<input type="text" name="userid"/>
-			<br>
-            Password<input type="password" name="pswrd"/>
-	</form>
-	<form action="successful_login.html">
-		<input type="submit" value="Login"/>
-	</form>
+<form action="successful_login.html">
+  <div style="background-color:beige" class="container"> <hr>
+    <h1>Log in</h1>
+    <h3>Welcome back to Nook's Cranny!</h3>
+
+    <label for="username">Username:</label>
+    <input type="text" placeholder="Enter Username" name="username" required><br>
+
+    <label for="psw">Password:</label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <p>Don't have an account? <font> <a href=./registration_page.html>Sign up</a> </font></p>
+
+    <button type="submit" class="loginbtn">Log in</button> <hr>
+</div>
+
+</form>
+
 </center>
 </form>
 </body>
