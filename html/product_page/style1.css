@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    /* background: transparent; */
+}
+
+body{
+    /* background: url(bg.png); */
+    color: rgb(255, 122, 117);
+    text-decoration: none;
+    font-size: 60px;
+    font-family: Helvetica;
+    text-shadow: 0 0 2px #000000;
+}
+
+.text{
+    color: rgb(255, 8, 0);
+    text-decoration: none;
+    font-size: 60px;
+    font-family: Helvetica;
+    text-shadow: 0 0 2px #000000;
+    position: absolute;
+    text-align: center;
+    top: 400px;
+    left: 1500px;
+}
+
+.deal{
+    position: absolute;
+    top: 320px;
+    left: 44%;
+    z-index: 1;
+    height: 15%;
+    
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    max-width: 2500px;
+    max-height: 10000px;
+    margin: 0 auto;
+    column-gap: 10px;
+    position: sticky;
+}
+
+#content div{
+    background: #ffffff;
+    padding: 250px;
+
+}
+#content div:nth-child(even){
+    background:#777;
+}
+
+a{
+    color: rgb(255, 122, 117);
+    text-shadow: 0 0 10px #000000;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: Helvetica;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+hr.divide{
+    border-top: 5px solid rgb(255, 150, 150);
+}
+v
+.Navigation{
+    position: absolute;
+    top:200px;
+    left:260px;
+    border: 8px solid rgb(253, 122, 122);
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+.Table {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+  
+    display: flex; /* so child elements can use flexbox stuff too! */
+  }
