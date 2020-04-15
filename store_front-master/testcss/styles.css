@@ -90,6 +90,22 @@ background-color: #4CAF50; /* Green */
 background-color: darkgreen;
 }
 
+.Navigation{
+background-color: #333;
+border-radius: 0.5em;
+}
+
+.Navigation a{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Navigation a:hover{
+color: firebrick;
+}
+
 .text{
     color: rgb(255, 8, 0);
     text-decoration: none;
