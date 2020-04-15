@@ -105,8 +105,9 @@ background-color: darkgreen;
 .deal{
     position: absolute;
     top: 320px;
-    left: 44%;
-    z-index: 1;
+      position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
     height: 15%;
     
 }
@@ -230,10 +231,9 @@ hr.divide{
   }
   
   .moved{
-      position:absolute;
-      z-index:1;
-      left: 47%;
-      
+       position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
   }
 
   
@@ -336,3 +336,10 @@ hr.divide{
     height: 300px;
 }
 
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li.rightActive,
+  ul.topnav li.active,  
+  ul.topnav li {float: none;}
+}
